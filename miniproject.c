@@ -176,7 +176,7 @@ int main() {
 
     simulateMLQWithAging(processes, numProcesses, numQueues, timeQuantum);
 
-    free(processes);  // Don't forget to free the allocated memory when done
+    free(processes); 
 
     return 0;
 }
